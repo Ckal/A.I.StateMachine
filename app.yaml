@@ -1,0 +1,18 @@
+name: A.I.StateMachine
+type: gradio-space
+sdk: gradio
+
+metadata:
+  space_id: Chris4K/A.I.StateMachine
+  original_url: https://huggingface.co/spaces/Chris4K/A.I.StateMachine
+
+deploy:
+  targets:
+    - public-repo
+    - huggingface
+
+build:
+  command: bash build.sh
+
+test:
+  command: echo "Tests not yet implemented"
